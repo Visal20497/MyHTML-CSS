@@ -1,0 +1,30 @@
+/* TAG NAME SELECTOR */
+p{
+    color: aqua;
+    background-color: #b63e3e;
+}
+/* ID SELECTOR */
+#tag{
+    color: rgb(196, 32, 32);
+    background-color: #16bd32;
+}
+/* CLASS SELECTOR */
+.x{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+.y{
+    color: chartreuse;
+}
+/* GROUP SELECTOR */
+#xyz, .m , .n , h3 {
+    color: goldenrod;
+    background-color: olive;
+    width: 300px;
+}
+/* UNIVERSAL SELECTOR */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+

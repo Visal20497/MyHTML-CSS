@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn about anchor tag and img tag</title>
+</head>
+<body>
+ <!--
+ANCHOR TAG
+-- Anchor tag creats a link inside our HTML documents.
+-- Anchor tag has two attributes "href" and "target" attribute.
+-- In href attribute we are providing the path of the file either absolute path or relative path.
+-- ABSOLUTE path means online path of a HTML file.
+-- RELATIVE path means the path of a file which presenting in our system.
+-- TARGET attributes has values likes -'self' -'blank' -'top' -'parent'.
+-- 'self' - Inside 'self' target the link we provide while we clicked it. It open in a same tab.
+-- 'blank' - Inside blank target the link we provide while we clicked it. It open in another tab.
+-- Default target value is 'self'.
+ -->
+
+    <a href="https://www.flipkart.com">TAB THIS LINK</a>  
+
+<br>
+
+ <!-- 
+IMAGE TAG
+-- Image tag is used to put some img on the HTML document.
+-- Image tag have 4 attributes "src" , "alt" , "height" , "width".
+-- src : source path from where we take the image.
+-- alt : In case the image is not showing for some network issue or any technical error then the alt text will show in the web pages.
+-- height : Its set the height of the img. 
+-- width : its set the width of the img.
+ -->
+
+    <img src="mern-stack.png" alt="MERN IMAGE" height="200" width="200">
+    <br>
+
+ <!-- 
+IMAGE HANDLING
+-- Attaching link to an image is called image handling  
+ -->
+
+    <a href="https://www.geeksforgeeks.org/mern-stack/" target="_blank">
+        <img src="mern-stack.png" alt="mern-stack" height="10%" width="10%" >
+    </a>
+
+</body>
+</html>

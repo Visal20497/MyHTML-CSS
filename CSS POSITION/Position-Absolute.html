@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position-Absolute</title>
+    <style>
+        .ggp{
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            position: relative;
+            left: 26em;
+            top: 4em;
+        }
+        .gp{
+            height: 350px;
+            width: 350px;
+            border: 2px solid brown;
+            position: absolute;
+            top: 4.5em;
+            left: 4.5em;
+        }
+        .p{
+            height: 200px;
+            width: 200px;
+            border: 2px solid blue;
+            position: absolute;
+            top: 9em;
+            left: 9em;
+        }
+        .child{
+            height: 50px;
+            width: 50px;
+            border: 2px solid red;
+            position: absolute;
+            top: 13.5em;
+            left: 13.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="ggp"> great grand parent 
+        <div class="gp">grand parent</div>
+        <div class="p">parent</div>
+        <div class="child">child</div>
+    </div>
+    
+</body>
+</html>

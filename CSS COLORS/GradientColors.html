@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gradient Colors</title>
+    <style>
+        div{
+            width: max-content;
+            margin: 100px auto;
+        }
+
+        .clor{
+            margin: 0px auto;
+            border: 2px none red;
+            height: 400px;
+            width: 400px;
+            background: linear-gradient(to bottom , red, orange, yellow, green, blue, indigo, violet);
+        }
+        .clor1{
+            margin: 0px auto;
+            border: 2px none red;
+            height: 400px;
+            width: 400px;
+            background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+        }
+        .clor2{
+            margin: 0px auto;
+            border: 2px none red;
+            height: 400px;
+            width: 400px;
+            background: conic-gradient( red 60deg, orange, yellow, green 250deg, blue, indigo, violet);
+        }
+        .letter{
+            color: rgba(255, 255, 255, 0.8 );
+            text-align: center;
+            margin: 50px auto;
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 align="center">Gradient colors</h1>
+        <div class="clor">
+            <h2 class="letter">RAINBOW</h2>
+        </div>
+    </div>
+    <div>
+        <h1 align="center">Radical colors</h1>
+        <div class="clor1">
+            <h2 class="letter">RAINBOW</h2>
+        </div>
+    </div>
+    <div>
+        <h1 align="center"> Conical colors</h1>
+        <div class="clor2">
+            <h2 class="letter">RAINBOW</h2>
+        </div>
+    </div>
+    
+</body>
+</html>

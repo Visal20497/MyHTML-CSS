@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+.outerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.facebook{
+    color: darkgreen;
+}
+.box{
+    width: 50%;
+    border: 0.5px solid black;
+    background-color: #ffffff;
+}

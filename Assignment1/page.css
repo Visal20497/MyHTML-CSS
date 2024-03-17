@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head>.a{
+    color: white;
+    background-color: orangered;
+    padding: 15px 150px;
+}
+.a>.b{
+    color: white;
+    background-color: orangered;
+    text-align: right;
+}
+
+h2::first-letter{
+    color: aqua;
+}

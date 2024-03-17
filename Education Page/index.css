@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-head{
+    margin: 1rem;
+    display: flex;
+    justify-content: center
+}
+
+.navigation{
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-items{
+    display: flex;
+    gap: 0 2rem;
+}
+
+.top-section{
+    background-color: aquamarine;
+}
+
+.top-background{
+    display: flex;
+    justify-content: center;
+}
+
+.top-background div{
+    width: 90%;
+}

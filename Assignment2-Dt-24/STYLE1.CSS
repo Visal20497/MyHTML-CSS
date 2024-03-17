@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.tablehead{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headelement{
+    text-decoration:none;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    box-shadow: 0 0 15px green;
+}
+
+.headelement:link{
+    background-color: yellowgreen;
+}
+
+.headelement:active{
+    background-color: red;
+}
+
+.headelement:hover{
+    background-color: yellow;
+}
+
+div>h1{
+    color: red;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 0 0 15px yellow;
+}
+
+.twoimage{
+    margin: auto;
+    padding: auto;
+}
+
+.imgelement{
+    width: 300px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(121, 137, 158);
+}
+
+.img-gap{
+    padding: 0px 300px;
+}
+
+
+.fourimage{
+    margin: auto;
+    padding: auto;
+}
+
+.imgelement1{
+    width: 200px;
+    height: 200px;
+    margin: 50px 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(107, 145, 158);
+}

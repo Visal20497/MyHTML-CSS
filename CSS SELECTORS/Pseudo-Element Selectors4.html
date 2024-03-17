@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements Selector</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        p::first-line{
+            background-color: rgb(71, 145, 214);
+        }
+        h1::before{
+            content: "Hello ";
+            font-size: 20px;
+        }
+        h1::after{
+            content: " Welcome";
+            font-family: cursive;
+        }
+        p::selection{
+            color: red;
+            background: lightgreen;
+        }
+        ::marker{
+            color: aqua;
+            font-size: 20px;
+        }
+        ul>li{
+            list-style-type: square;
+        }
+    
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius rem deleniti officia, ullam nihil numquam fugiat quos iusto blanditiis labore corrupti, veritatis placeat error itaque. Dignissimos nesciunt quas vitae officiis!
+        Accusantium impedit, qui aliquam corporis necessitatibus voluptas magnam animi rerum minus veritatis asperiores voluptatibus harum laudantium sint dolore. Dolor atque laborum vero nesciunt delectus expedita dolorem, reprehenderit numquam. Perferendis, itaque.
+        Cupiditate, quos aliquam qui excepturi molestias provident. Facilis beatae nostrum, eligendi ullam consequatur asperiores est voluptatibus amet in, aliquid natus laborum libero distinctio enim dicta nobis voluptas ipsa earum. Quasi?
+        Unde fuga doloremque omnis fugiat aperiam porro enim voluptatibus, quam molestiae dolore voluptates recusandae natus nostrum dolor dignissimos repellendus illum rerum perspiciatis obcaecati esse nihil nulla ad sequi non? Explicabo!
+        Porro provident consequuntur rem, quibusdam mollitia vitae iure voluptates qui autem magni natus corporis molestiae fugit quos aliquam, eligendi error pariatur. Voluptates aut deleniti dignissimos doloribus pariatur odit inventore enim.
+        Est sequi quia facere optio veniam mollitia excepturi error deserunt adipisci debitis suscipit placeat similique consectetur sunt, sint voluptate, omnis fugiat qui quod corporis distinctio. Quos tempora error consequatur sed.
+        Magni, modi quia consequatur, facilis voluptatem suscipit est, perferendis commodi voluptate ea nostrum. Deleniti sapiente voluptates earum atque ad esse quidem blanditiis, quis ex veniam ab? Dignissimos minima quisquam dolor.
+        Ipsam labore asperiores accusamus vel soluta ut repellendus recusandae, omnis dicta maiores distinctio facere ducimus eligendi deleniti provident vero pariatur perspiciatis illum porro consectetur at! Nostrum eveniet sequi rerum facere!
+    </p>
+    <h1>ANKIT</h1>
+
+    <ul>
+        <li>xyz</li>
+        <li>xyz</li>
+        <li>xyz</li>
+        <li>xyz</li>
+    </ul>
+</body>
+</html>

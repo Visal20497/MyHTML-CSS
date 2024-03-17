@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LISTS</title>
+</head>
+<body>
+ 
+<!--     
+In HTML we have three types of lists:
+* ORDERED LISTS
+* UNORDERED LISTS
+* DESCRIPTION LISTS
+ -->
+
+ <!-- 
+*ORDERED LISTS
+--In ordered list we are getting list items in a order.
+--to define the order list we are using <ol> Tag , for each item.
+--for each list item we have to use <li> tag.
+--Ordered list have two attributes 'TYPE' and 'START'.
+--In 'TYPE' attribute we are defining which type of list order we want to display in oue webpage, i.e : '1,2,3' or 'a,b,c' or 'A,B,C' or 'I,II,III' or 'i,ii,iii'.
+--The default 'TYPE' is 1.
+--In 'start' attribute we are providing a numeric value that from which order the list going to start.
+--That means if we want to start list from letter 'e' then we have to write in 'start' = '5'.
+ -->
+
+    <ol type="a" start="5">
+        <li>mango</li>
+        <li>orange</li>
+        <li>apple</li>
+    </ol>
+
+ <!--
+*UNORDERED LISTS
+--In unordered list we are getting list items without any orders.
+--For defining unordered list we have to use <ul> tag.
+--It have one attribute i.e 'TYPE'.
+--In unordered lists the type attributes defines which type  of symbol we want before the items. i.e : *disc , *circle , *square.
+--Default type is '.' disc .
+ -->
+
+    <ul>
+        <li>tomato</li>
+        <li>potato</li>
+        <li>onion</li>
+    </ul>
+
+ <!--
+*DESCRIPTION LISTS
+--In description list we are getting a 'NOTE' like structure of data.
+--Here 
+       *<dl> - description list.
+       *<dt> - description term.
+       *<dd> - description data.
+ -->
+
+    <dl>
+        <dt>Main Course</dt>
+            <dd>plain rice</dd>
+            <dd>Briyani</dd>
+
+        <dt>Starter</dt>
+            <dd>pakoda</dd>
+            <dd>salad</dd>
+    </dl>
+
+
+</body>
+</html>
